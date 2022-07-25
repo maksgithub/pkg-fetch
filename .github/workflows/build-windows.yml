@@ -10,8 +10,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target-node: [14, 16, 18]
-        target-arch: [x64, arm64]
+        target-node: [16]
+        target-arch: [x86]
 
     steps:
       - uses: actions/checkout@v2
